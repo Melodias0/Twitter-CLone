@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;600;900&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;600;900&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@400;600&family=Oswald:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    width: 31.2%;
+    height: 961px;
+    border-right: 1px solid rgba(52, 52, 52, 0.100) ;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.logo1{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0 0 58.65%;
+    align-items: center;
+}
+
+.logo1:hover{
+    background-color: rgb(52, 52, 52, 0.100);
+    border-radius: 100%;
+}
+
+#logo {
+    width: 40px;
+    height: 35px;
+}
+
+.nav1 {
+    width: 75%;
+    height: 960px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.nav2 {
+    margin-top: 20px;
+}
+
+.anasayfa {
+    display: inline-flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 210px;
+    padding-right: 20px;
+}
+
+.kesfet {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 175px;
+    padding-right: 28px;
+}
+
+.bildirimler {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 200px;
+    padding-right: 16px;
+}
+
+.mesajlar {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 180px;
+    padding-right: 12px;
+}
+
+.listeler {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 170px;
+    padding-right: 15px;
+}
+
+.markbooks {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 230px;
+    height: 50px;
+    padding-right: 22px;
+}
+
+.twblue {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 220px;
+    padding-right: 15px;
+}
+
+.profile {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 160px;
+    padding-right: 25px;
+}
+
+.dahafazla {
+    display: flex;
+    justify-content: end;
+    margin-left: 162px;
+    height: 50px;
+    width: 210px;
+    padding-right: 19px;
+}
+
+.anasayfalogo {
+    display: flex;
+    height: 50px;
+    width: 50px;    
+    align-items: center;
+
+}
+
+.anasayfahead {
+    display: flex;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    /* margin-right: 5px; */
+}
+
+.anasayfa:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+.kesfetlogo {
+    display: flex;
+    height: 50px;
+    width: 50px;   
+    align-items: center;
+}
+
+.kesfethead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+    /* margin-right: 18px; */
+}
+
+.kesfet:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+.bildirimlerlogo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;    
+    align-items: center;
+}
+
+.bildirimlerhead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.bildirimler:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+.mesajlarlogo {
+    display: flex;
+    height: 50px;
+    width: 50px;   
+    align-items: center;
+}
+
+.mesajhead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+    /* margin-right: -4px; */
+}
+
+.mesajlar:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+.listelerlogo {
+    display: flex;
+    height: 50px;
+    width: 50px;  
+    /* margin-right: 2px;   */
+    align-items: center;
+}
+
+.listelerhead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.listeler:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+.markbookslogo {
+    display: flex;
+    height: 50px;
+    width: 50px;    
+    margin-right: 2px;
+    align-items: center;
+}
+
+.markbookshead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+    /* margin-right: -14px; */
+}
+
+.markbooks:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 26px;
+}
+
+ .twbluelogo {
+    display: flex;
+    height: 50px;
+    width: 50px;    
+    margin-right: 6px;
+    align-items: center;
+ }
+
+ .twbluehead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+ }
+
+ .twblue:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+ .profilelogo {
+    display: flex;
+    height: 50px;
+    width: 50px;    
+    margin-right: 5px;
+    align-items: center;
+ }
+
+ .profilehead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;
+    /* margin-right: 11px; */
+    color: black;
+ }
+
+ .profile:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+.dahafazlalogo {
+    display: flex;
+    height: 50px;
+    width: 50px;    
+    margin-right: 5px;
+    align-items: center;
+}
+
+.dahafazlahead {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    align-items: center;    
+    /* margin-right: -6px; */
+}
+
+.dahafazla:hover{
+    background-color: rgb(52, 52, 52, 0.100); 
+    border-radius: 25px;
+}
+
+
+div, i, a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.tweetle button {
+    width: 230px;
+    height: 50px;
+    border: none;
+    margin-left: 165px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    background: #1a8cd8;
+    border-radius: 25px ;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+}
+
+.ekran {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.icerik {
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    border-radius: 15px;
+}
+
+#kapat {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    margin-left: 460px;
+}
+
+#isim {
+    align-items: center;
+    text-align: center;
+    font-family: 'Bellota Text', cursive;
+}
+
+#text {
+    width: 550px;
+    height: 190px;
+    border-radius: 8px;
+    border: 1px solid rgb(52, 52, 52, 0.100);
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+     width: 50%;
+    height: 10000px;
+    border-right: 1px solid rgba(52, 52, 52, 0.100) ;
+}
+
+.head {
+    height: 75px;
+    border-bottom: 1px solid rgba(52, 52, 52, 0.100) ;
+}
+
+.head h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.right form input {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: none;
+    background: #eff3f4;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #1a8cd8;
+    padding: 12px;
+}
+
+
+.etiketler div {
+    background: #eff3f4;
+    margin-left: 40px;
+}
+ .etiketler :first-child {
+    border-radius: 25px 25px 0 0 ;
+ }
+
+ .etiketler :last-child {
+    border-radius: 0 0 25px 25px ;
+ }
+
+ .etiketler div:hover {
+    background: #cbcdce;
+ }
+
+#etiketlerhead {
+    display: flex;
+    height: 50px;
+    width: 300px;   
+    text-align: center;
+    align-items: center;
+    padding: 12px 16px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-size: 17px;
+}
+
+.Memleketpartisi {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.Memleketpartisi h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.Memleketpartisi p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.paribu {
+    width: 300px;
+    height: 110px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.paribu h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.paribu p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.şeriat {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.şeriat h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.şeriat p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.hulusi {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.hulusi h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.hulusi p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.Özür {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.Özür h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.Özür p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.Kızılay {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.Kızılay h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.Kızılay p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.Erzurum {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.Erzurum h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.Erzurum p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.Kerem {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.Kerem h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.Kerem p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.Spor {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.Spor h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.Spor p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.ksunal {
+    font-size: 10px;
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+.ksunal h2 {
+    color: #536471;
+    font-size: 15px;
+}
+
+.ksunal  p {
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Secular One', sans-serif;
+}
+
+.dahafazlagöster {
+    width: 300px;
+    height: 75px;
+    padding-top: 10px ;
+    padding-left: 10px;
+    font-family: 'Bellota Text', cursive;
+    font-size: 18px;
+    color: #1a8cd8;
+ }

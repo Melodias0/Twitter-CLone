@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="stylesheet" href="/Css/AnaSayfa.css" />
+    <script
+      src="https://kit.fontawesome.com/9f66f54061.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="nav1">
+            <div class="logo1">
+              <h1>
+                <a href="/Html/AnaSayfa.html"
+                  ><img src="/İmage/twitterpng.png" alt="Twitter" id="logo"
+                /></a>
+              </h1>
+            </div>
+            <div class="nav2">
+              
+              <div class="anasayfa">
+                <div class="anasayfalogo">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="anasayfahead">
+                  <a href="/Html/AnaSayfa.html">Ana Sayfa</a>
+                </div>
+              </div>
+
+              <div class="kesfet">
+                <div class="kesfetlogo">
+                  <i class="fa-solid fa-hashtag"></i>
+                </div>
+                <div class="kesfethead">
+                  <a href="/Html/Keşfet.html">Keşfet</a>
+                </div>
+              </div>
+
+              <div class="bildirimler">
+                <div class="bildirimlerlogo">
+                  <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="bildirimlerhead">
+                  <a href="/Html/Bildirimler.html">Bildirimler</a>
+                </div>
+              </div>
+
+              <div class="mesajlar">
+                <div class="mesajlarlogo">
+                  <i class="fa-solid fa-message"></i>
+                </div>
+                <div class="mesajhead">
+                  <a href="/Html/Mesajlar.html">Mesajlar</a>
+                </div>
+              </div>
+
+              <div class="listeler">
+                <div class="listelerlogo">
+                  <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+                <div class="listelerhead">
+                  <a href="/Html/Listeler.html"> Listeler </a>
+                </div>
+              </div>
+
+              <div class="markbooks">
+                <div class="markbookslogo">
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="markbookshead">
+                  <a href="/Html/Yerİşaretleri.html"> Yer İşaretleri</a>
+                </div>
+              </div>
+
+              <div class="twblue">
+                <div class="twbluelogo">
+                  <i class="fa-brands fa-square-twitter"></i>
+                </div>
+                <div class="twbluehead">
+                  <a href="/Html/TwitterBlue.html"> Twitter Blue</a>
+                </div>
+              </div>
+
+              <div class="profile">
+                <div class="profilelogo">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="profilehead">
+                  <a href="/Html/Profil.html"> Profil</a>
+                </div>
+              </div>
+
+              <div class="dahafazla">
+                <div class="dahafazlalogo">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="dahafazlahead">
+                  <a href="/Html/DahaFazla.html"> Daha fazla</a>
+                </div>
+              </div>
+
+              <div class="tweetle">
+                <button onclick="ekraniGoster()">Tweetle</button>
+
+                <div class="ekran" id="ekran">
+                  <div class="icerik">
+                    <p id="isim">Web Developer: Melih Bakırhan</p>
+                    <div class="offbut">
+                      <input type="text" name="" id="text">
+                      <button onclick="ekraniKapat()" id="kapat" >Tamam</button>
+                    </div>
+
+
+                  </div>
+                </div>
+
+                <script>
+                  // Ekranı gösterme işlemi için JavaScript fonksiyonu
+                  function ekraniGoster() {
+                    document.getElementById("ekran").style.display = "flex";
+                  }
+
+                  // Ekranı kapatma işlemi için JavaScript fonksiyonu
+                  function ekraniKapat() {
+                    document.getElementById("ekran").style.display = "none";
+                  }
+                </script>
+                
+              </div>
+
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="left">
+          <div class="head">
+            <h2>
+              <a href="/Html/AnaSayfa.html">Anasayfa</a>
+            </h2>
+          </div>
+        </div>
+        <div class="right">
+          <form action=""> 
+            <input type="search" name="" id="" placeholder="Twtitter'da Ara">
+          </form>
+          <div class="etiketler">
+            <div id="etiketlerhead">İlginizi çekebilecek gündemler</div>
+
+            <div class="Memleketpartisi">
+              <h2>Türkiye tarihinde gündemde</h2>
+              <p>#Sinan Oğan</p>
+              <h2>2.845 Tweet</h2>
+            </div>
+
+            <div class="paribu">
+              <p>#ParibuPizzaGünü</p>
+              <h2>Yılın o günü geldi: 20 - 22 Mayıs'ta Papa Jhn's pizzan Paribu'dan.</h2>
+              <h2>2.845 Tweet</h2>
+            </div>
+
+            <div class="şeriat">
+              <h2>Türkiye tarihinde gündemde</h2>
+              <p>#Şeriat</p>
+              <h2>8.527 Tweet</h2>
+            </div>
+
+            <div class="hulusi">
+              <h2>Türkiye tarihinde gündemde</h2>
+              <p>#HulusiAkar</p>
+              <h2>2.884 Tweet</h2>
+            </div>
+
+            <div class="Özür">
+              <h2>Türkiye tarihinde gündemde</h2>
+              <p>#Özür</p>
+              <h2>30.3 B Tweet</h2>
+            </div>
+
+            <div class="Kızılay">
+              <h2>Türkiye tarihinde gündemde</h2>
+              <p>#Kızılay</p>
+              <h2>10.9 B Tweet</h2>
+            </div>
+
+            <div class="Erzurum">
+              <h2>Türkiye tarihinde gündemde</h2>
+              <p>#Erzurum</p>
+              <h2>1.838 Tweet</h2>
+            </div>
+
+            <div class="Kerem">
+              <h2>Türkiye tarihinde gündemde</h2>
+              <p>#Kerem</p>
+              <h2>12.4 B Tweet</h2>
+            </div>
+
+            <div class="Spor">
+              <h2>Spor - Gündemdekiler</h2>
+              <p>#TFF 2</p>
+              <h2>2.845 Tweet</h2>
+            </div>
+            
+            <div class="ksunal">
+              <h2>Spor - Gündemdekiler</h2>
+              <p>#KemalSUnal</p>
+            </div>
+
+            <div class="dahafazlagöster ">
+              <h3>Daha fazla göster</h3>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
